@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/componentes/header.css">
+  <link rel="stylesheet" href="./css/componentes/body.css">
+  <link rel="stylesheet" href="./css/componentes/texts.css">
+  <link rel="stylesheet" href="./css/componentes/buttons.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <title>E&G Express</title>
+</head>
+
+<body>
+  <div id="page">
+  <header class="header">
+    <div class="boxHeader" id="caixaLogo">
+        <img class="logo" src="./imagens/lOGO TRAMPO (1)_clipdrop-background-removal.png" alt="logo-do-site">
+        <h1 class="tituloPrincipal -header">E&G Express</h1>
+    </div>
+
+    <div class="boxHeader" id="Caixa nav">
+    <nav class="navigation">
+        <a class="links" href="./index.html">Início</a>
+        <a class="links" href="#rastrear">Rastreio</a>
+        <a class="links" href="#avaliacoes">Avaliações</a>
+        <a class="links" href="#sobre">Sobre Nós</a>
+        <a class="links" href="#contato">Contato</a>
+      </nav>
+    </div>
+
+        <div class="boxLogin">
+            <a class="button" id="buttonLog" href="./login.html">Login</a>
+            <a class="button" id="buttonCad" href="./login.html">Cadastro</a>
+
+        </div>
+  </header>
+
+  <section class="Primeira secao" id="rastrear">
+    <h2>Rastreio</h2>
+    <form class="rastreio">
+      <label for="id_rastreio">Número de Rastreio:</label>
+      <input type="number" required>
+
+      <button type="submit">Buscar</button>
+    </form>
+    <hr>
+    <div class="Segunda secao" id="avaliacoes">
+      <h2>Avalições de Usuários</h2>
+      <!--preencher futuramente-->
+      <button>Enviar Avaliação</button>
+    </div>
+    <hr>
+  </section>
+
+  <section class="Terceira secao" id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Nós da E&G Express somos a sua empresa de Gestão de logística e entregas comprometida em fornecer soluções
+      eficientes e inovadoras para nossos clientes. Presamos pela eficiência, planejamento e execução de todos os
+      processos desde o fornecedor até o cliente final. Focamos sempre na satisfação do cliente e na praticidade
+      operacional. Trabalhamos em colaboração com diversas indústrias e estamos sempre abertos à novas parcerias
+      assegurando suavidade, economia e sustentabilidade para operações logísticas e para um serviço de entrega rápido e
+      confiável.</p>
+
+      <h3><a href="./login.html">Trabalhe conosco</a></h3>
+    <hr>
+  </section>
+
+  <section class="Quarta secao" id="contato">
+    <h2>Atendimento ao Cliente</h2>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      <br>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <br>
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+      <br>
+      <br>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  <!--Mickey Mouse was hereKKKKKKKKKKKKKKKKKKKKKK-->
+  <footer class="Rodapé" id="Contatos">
+    <h1>Redes Sociais</h1>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+    <p>&copy; 2023 E&G Express. Todos os direitos reservados.</p>
+  </footer>
+</div>
+</body>
+</html>

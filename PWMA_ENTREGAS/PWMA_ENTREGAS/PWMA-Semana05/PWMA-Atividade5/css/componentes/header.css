@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    width: 1455px;
+    height: 84px;
+    position:relative;
+    border:2px solid red;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#caixaLogo {
+    height: 79px;
+    width: 275px;
+    display: inline-flex;
+    padding: 0;
+    border:2px solid red;
+}
+
+
+.navigation {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.boxLogin {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 10px;
+}
