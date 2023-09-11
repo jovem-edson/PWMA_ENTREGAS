@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="./css/componentes/body.css">
   <link rel="stylesheet" href="./css/componentes/texts.css">
   <link rel="stylesheet" href="./css/componentes/buttons.css">
+  <link rel="stylesheet" href="./css/componentes/sections.css">
   <link rel="stylesheet" href="./css/reset.css">
   <title>E&G Express</title>
 </head>
@@ -17,7 +18,7 @@
   <header class="header">
     <div class="boxHeader" id="caixaLogo">
         <img class="logo" src="./imagens/lOGO TRAMPO (1)_clipdrop-background-removal.png" alt="logo-do-site">
-        <h1 class="tituloPrincipal -header">E&G Express</h1>
+        <h1 class="tituloPrincipal">E&G Express</h1>
     </div>
 
     <div class="boxHeader" id="Caixa nav">
@@ -37,24 +38,47 @@
         </div>
   </header>
 
-  <section class="Primeira secao" id="rastrear">
-    <h2>Rastreio</h2>
+  <section class="secao" id="primeiraSecao">
+    <div class="boxBody">
+    <h1 class="tituloPrincipal">Serviço de Entrega Personalizado<br> Entregando satisfação e praticidade</h1>
     <form class="rastreio">
       <label for="id_rastreio">Número de Rastreio:</label>
       <input type="number" required>
-
       <button type="submit">Buscar</button>
     </form>
-    <hr>
-    <div class="Segunda secao" id="avaliacoes">
-      <h2>Avalições de Usuários</h2>
-      <!--preencher futuramente-->
-      <button>Enviar Avaliação</button>
-    </div>
-    <hr>
-  </section>
+  </div>
+  <div>
+    <img class="assets" src="./imagens/lOGO TRAMPO (3)_clipdrop-background-removal.png" alt="Laptop">
+  </div>
+</section>
 
-  <section class="Terceira secao" id="sobre">
+    <section class="secao" id="segundaSecao">
+      <h2 class="subtitulo">Avaliações de Usuários</h2>
+      <div class="teste">
+      <div class="boxBody">
+        <div class="boxAv">
+        <img class="avaliacao" src="./imagens/av1.png" alt="logo-do-site">
+        </div>
+
+        <div class="boxAv">
+        <img class="avaliacao" src="./imagens/av2.png" alt="logo-do-site">
+        </div>
+
+        <div class="boxAv">
+        <img class="avaliacao" src="./imagens/av3.png" alt="logo-do-site">
+        </div>
+      </div>  
+
+      <div class="boxSection">
+        <h2>Levando sempre o feedback em consideração</h2>
+        <p>Na E&G Express sua opinião vem em primeiro lugar</p>
+        <img class="assets" src="./imagens/assets.png" alt="Avalie-nos">
+      </div>
+    </div>
+    <button class="button" id="buttonSend">Enviar Avaliação</button>
+    </section>
+
+  <section class="secao" id="TerceiraSecao">
     <h2>Sobre Nós</h2>
     <p>Nós da E&G Express somos a sua empresa de Gestão de logística e entregas comprometida em fornecer soluções
       eficientes e inovadoras para nossos clientes. Presamos pela eficiência, planejamento e execução de todos os
@@ -67,7 +91,7 @@
     <hr>
   </section>
 
-  <section class="Quarta secao" id="contato">
+  <section class="secao" id="QuartaSecao">
     <h2>Atendimento ao Cliente</h2>
     <form>
       <label for="nome">Nome:</label>

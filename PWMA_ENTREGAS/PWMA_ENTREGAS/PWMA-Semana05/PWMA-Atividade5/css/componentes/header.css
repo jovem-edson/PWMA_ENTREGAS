@@ -3,10 +3,10 @@
     width: 1455px;
     height: 84px;
     position:relative;
-    border:2px solid red;
+    border-bottom: 7px solid black;
     align-items: center;
     justify-content: space-between;
-    padding: 5px;
+    padding: 10px;
 }
 
 #caixaLogo {
@@ -14,7 +14,6 @@
     width: 275px;
     display: inline-flex;
     padding: 0;
-    border:2px solid red;
 }
 
 

@@ -1,0 +1,47 @@
+.secao {
+    display: flex;
+    padding: 96px 147px;
+    align-items: center;
+    width: 1177px;
+    gap: 104px;
+    border-bottom: 7px solid black;
+    background-color: lightgray;
+    margin: 0;
+
+}
+
+#segundaSecao {
+    background-color: white;
+    flex-direction: column;
+}
+
+.boxBody {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    background-color: white;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+.boxAv {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 3px solid black;
+    
+}
+
+.boxSection {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+.teste {
+    display: flex;
+    gap: 50px;
+}

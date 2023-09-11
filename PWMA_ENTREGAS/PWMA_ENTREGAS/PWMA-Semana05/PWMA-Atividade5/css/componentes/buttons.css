@@ -11,16 +11,19 @@ text-decoration: none;
 .button:hover {
 /*pseudo-classe*/
 transform: scale(1.2);
-background-color: rgb(59, 5, 184);
 }
 
 #buttonLog {
     margin-right: 30px;
-    background-color: white;
-    color: plum;
+    color: black;
 }
 
 #buttonCad {
-    background-color: plum;
+    background-color: black;
+    color: white;
+}
+
+#buttonSend {
+    background-color: black;
     color: white;
 }

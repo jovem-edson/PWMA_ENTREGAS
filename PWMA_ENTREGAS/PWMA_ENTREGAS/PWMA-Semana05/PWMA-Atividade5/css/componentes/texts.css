@@ -1,3 +1,7 @@
-.tituloPrincipal.-header{
+.tituloPrincipal {
     padding-top: 20px;
+}
+
+.subtitulo {
+    justify-content: center;
 }
