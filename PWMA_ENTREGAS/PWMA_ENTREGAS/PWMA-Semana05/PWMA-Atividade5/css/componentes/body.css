@@ -1,5 +1,6 @@
 div#page {
-    width:1470px;
+  margin: 0 auto;
+    width:95%;
     justify-content: center;
     position:relative;
     border: 7px solid black;

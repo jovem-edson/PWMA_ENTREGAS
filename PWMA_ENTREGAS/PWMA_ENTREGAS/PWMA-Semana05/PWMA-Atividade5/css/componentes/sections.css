@@ -1,13 +1,14 @@
 .secao {
     display: flex;
-    padding: 96px 147px;
+    flex-wrap: wrap;
     align-items: center;
-    width: 1177px;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
     gap: 104px;
     border-bottom: 7px solid black;
     background-color: lightgray;
-    margin: 0;
-
 }
 
 #segundaSecao {
@@ -17,16 +18,19 @@
 
 .boxBody {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    gap: 50px;
+    gap: 25px;
     text-align: center;
     background-color: white;
     border: 3px solid black;
-    padding: 20px;
+    padding: 10px;
+    margin-left: 50px;
 }
 
 .boxAv {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     background-color: white;
     border: 3px solid black;
@@ -35,13 +39,15 @@
 
 .boxSection {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 50px;
     text-align: center;
     padding: 20px;
 }
 
-.teste {
+.boxWrap {
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
 }
