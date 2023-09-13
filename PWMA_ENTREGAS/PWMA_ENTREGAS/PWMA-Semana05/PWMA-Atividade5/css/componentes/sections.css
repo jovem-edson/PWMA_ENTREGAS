@@ -51,3 +51,8 @@
     flex-wrap: wrap;
     gap: 50px;
 }
+
+#imgCaminhao {
+    width: 200;
+    height: 250px;
+}

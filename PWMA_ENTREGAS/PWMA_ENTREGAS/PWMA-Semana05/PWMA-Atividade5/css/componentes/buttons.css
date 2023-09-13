@@ -6,6 +6,8 @@ transition: transform 50ms linear;
 font-size: 20px;
 font-weight: bold;
 text-decoration: none;
+background-color: black;
+color: white;
 }
 
 .button:hover {
@@ -16,14 +18,5 @@ transform: scale(1.2);
 #buttonLog {
     margin-right: 30px;
     color: black;
-}
-
-#buttonCad {
-    background-color: black;
-    color: white;
-}
-
-#buttonSend {
-    background-color: black;
-    color: white;
+    background-color: white;
 }
