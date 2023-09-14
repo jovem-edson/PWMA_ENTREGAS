@@ -9,12 +9,6 @@
     padding: 10px;
 }
 
-#caixaLogo {
-    height: 79px;
-    width: 275px;
-    display: inline-flex;
-}
-
 .link-logo {
     text-decoration: none;
     color: black;
@@ -34,9 +28,3 @@
     font-weight: bold;
 }
 
-.boxLogin {
-    display: flex;
-    padding: 10px 20px;
-    align-items: center;
-    gap: 10px;
-}

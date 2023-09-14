@@ -11,7 +11,7 @@ color: white;
 }
 
 .button:hover {
-/*animação*/
+/*animação do botão*/
 transform: scale(1.2);
 }
 

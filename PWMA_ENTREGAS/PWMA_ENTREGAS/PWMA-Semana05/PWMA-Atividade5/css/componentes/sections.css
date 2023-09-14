@@ -9,6 +9,21 @@
     gap: 104px;
     border-bottom: 7px solid black;
     background-color: lightgray;
+    flex-direction: column;
+}
+
+.secaoTitulo {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-align: justify;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 3px solid black;
+    padding: 10px 0px;
 }
 
 #segundaSecao {
@@ -16,43 +31,18 @@
     flex-direction: column;
 }
 
-.boxBody {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 25px;
-    text-align: center;
-    background-color: white;
-    border: 3px solid black;
-    padding: 10px;
-    margin-left: 50px;
+#primeiraSecaoCad {
+    background-image: url(../../imagens/backgroundCad.png) ;
 }
 
-.boxAv {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    background-color: white;
-    border: 3px solid black;
-    
+#primeiraSecaoLog {
+    background-image: url(../../imagens/backgroundLog.png);
 }
 
-.boxSection {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 50px;
-    text-align: center;
-    padding: 20px;
+#primeiraSecaoHelp {
+    background-image: url(../../imagens/backgroundHelp.png);
+}
+#aboutSection1 {
+    padding: 10px 25px;
 }
 
-.boxWrap {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-}
-
-#imgCaminhao {
-    width: 200;
-    height: 250px;
-}
