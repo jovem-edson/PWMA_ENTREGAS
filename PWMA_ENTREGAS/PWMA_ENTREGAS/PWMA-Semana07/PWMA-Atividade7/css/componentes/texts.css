@@ -1,0 +1,32 @@
+.tituloPrincipal {
+    padding-top: 20px;
+}
+
+.subtitulo {
+    justify-content: center;
+}
+
+.requisitos {
+    text-align: left;
+}
+
+#subAbout {
+    color: gray;
+}
+
+.rowTitle {
+    font-size: 17px;
+
+}
+
+.rowContent {
+    font-size: 17px;
+
+}
+
+ul {
+  text-align: left;
+  align-items: left;
+  text-decoration: none;
+  justify-content: left;
+}

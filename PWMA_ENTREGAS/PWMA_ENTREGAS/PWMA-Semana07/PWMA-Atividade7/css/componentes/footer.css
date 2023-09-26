@@ -1,0 +1,36 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 165px;
+    align-items: flex-start;
+    gap: 125px;
+    height: 10%;
+    position:relative;
+}
+
+#Servicos {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+#boxLogoFooter {
+    height: 79px;
+    width: 275px;
+    display: inline-flex;
+}
+
+
+.linksFooter {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+#lista3 {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    flex-direction: row;
+}
+

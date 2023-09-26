@@ -1,0 +1,106 @@
+.boxLogin {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 10px;
+}
+
+#caixaLogo {
+    height: 79px;
+    width: 275px;
+    display: inline-flex;
+}
+
+.boxBody {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 25px;
+    text-align: center;
+    background-color: white;
+    border: 3px solid black;
+    padding: 10px;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+#boxBodyAbout {
+    gap: 5px;
+}
+
+/* Av representa as avaliações na main */
+.boxAv {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    border: 3px solid black;
+    
+}
+
+.boxSection {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* boxWrap é a caixa que envolve a maioria dos conteiners do código */
+.boxWrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+/* as colunas estão localizadas em sua maior parte no footer, elas 
+tão sendo utilizadas para abrigar listas e deixa-las ordenadas */
+.boxColuna {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 35px;
+}
+
+.boxLista {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+/* Cad refere-se a página de cadastro */
+#boxCad {
+    display: block;
+    margin-left: 0;
+}
+
+#colunaCad {
+    margin-top: 0;
+    padding: 0px 115px;
+}
+
+/*row são conteiners em formatados em linhas, utilizado no sobre da página */
+#row1 {
+    margin: 0;
+    
+}
+
+#rowAbout {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.rowContent {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#listaDiv {
+  margin: 0;
+}

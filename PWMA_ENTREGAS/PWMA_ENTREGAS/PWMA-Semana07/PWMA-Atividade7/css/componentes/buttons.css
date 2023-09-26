@@ -1,0 +1,22 @@
+.button {
+padding-left: 20px;
+padding-right: 20px;
+line-height: 40px;
+transition: transform 50ms linear;
+font-size: 20px;
+font-weight: bold;
+text-decoration: none;
+background-color: black;
+color: white;
+}
+
+.button:hover {
+/*animação do botão*/
+transform: scale(1.2);
+}
+
+#buttonLog {
+    margin-right: 30px;
+    color: black;
+    background-color: white;
+}
