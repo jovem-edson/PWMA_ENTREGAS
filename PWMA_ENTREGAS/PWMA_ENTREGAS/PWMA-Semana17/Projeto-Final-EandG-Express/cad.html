@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>E&G Express</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container justify-content-between">
+      <img src="./img/logos/Logo.png" id="logo" alt="logo"> 
+      <a class="navbar-brand" href="index.html">E&G Express</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav m-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#avaliacoes">Avaliações</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre.html">Sobre Nós</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ajuda.html">Contato</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    </header>
+
+    <main>
+  <section id="secaoCadastro" class="secao secaoCinza align-content-center justify-content-center py-3">
+    <div class="d-flex flex-column container align-items-center col-12 mt-5">
+    <div class="text-center col-md-5 mb-4 p-2 border border-4 border-dark bg-light">
+      <h2 class="h2 text-dark mb-0">Trabalhe Conosco</h2>
+
+    </div>
+      <div class="row p-3 justify-content-center">
+        <div class="col-md-8 col-12 border border-4 border-dark p-5 bg-light">
+          <div>
+          <h3 class="h3 d-flex align-items-center justify-content-center">Cadastro</h3>
+            <p class="text-dark text-center">Venha participar do mais novo sistema de entregas nacional !</p>
+            <form class="d-flex flex-column align-items-center">
+            <div class="mb-3 col-md-12">
+              <label class="form-label" for="emp">Empresa:*</label>
+              <input id="emp" type="text" name="Empresa" size="35" class="form-control" required>
+            </div>
+
+              <div class="mb-3 col-md-12 col-12">
+                <label for="set" class="form-label">Setor:*</label>
+                <select id="set" class="form-select">
+                  <option selected disabled hidden style='display: none' value=''></option>
+                </select>
+              </div>
+
+            <div class="row mb-3 g-3 justify-content-center">
+              <div class="col-md-6">
+                <label for="nom">Nome:*</label>
+                <input id="nom" type="text" name="Nome" size="35" class="form-control" required>
+              </div>
+
+              <div class="col-md-6">
+                <label for="sob">Sobrenome:*</label>
+                <input id="sob" type="text" name="Sobrenome" size="35" class="form-control" required>
+              </div>
+            </div>
+
+              <div class="mb-3 col-md-12">
+                <label for="cnpj">CNPJ:*</label>
+                <input id="cnpj" type="text" name="Cnpj" maxlength="18" onkeyup="handleCnpj(event)" class="form-control" placeholder="00.000.000/0000-00" required>
+              </div>
+
+            <div class="mb-3 col-md-12">
+              <label for="email">Email:*</label>
+              <input id="email" type="text" size="35" name="Email" class="form-control" required>
+            </div>
+
+              <div class="mb-3 col-md-12">
+                <label for="senha">Senha:*</label>
+                <input id="senha" type="password" size="35" name="Senha" class="form-control" required>
+              </div>
+              
+            </form>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <button class="btn btn-dark col-md-4 col-7 mt-3" href="perfil.html" onclick="validarCampos()">Enviar</button>
+              </div>
+        </div>
+            </div>
+          </form>
+    </div>
+  </section>
+    </main>
+
+  <footer class="footer footer-light text-dark p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="d-flex align-items-center">
+            <img src="./img/logos/Logo.png" id="logo" alt="logo">
+            <h1 class="h5"><a class="text-dark text-decoration-none" href="./index.html">E&G Express</a></h1>
+          </div>
+          <p class="small">© 2023 E&G Express. Todos os direitos reservados.</p>
+          <div class="d-flex">
+            <a class="text-dark" href="#"><i class="fa-brands fa-instagram m-2"></i></a>
+            <a class="text-dark" href="#"><i class="fa-brands fa-facebook m-2"></i></a>
+            <a class="text-dark" href="#"><i class="fa-brands fa-linkedin m-2"></i></a>
+          </div>
+        </div>
+
+        <div class="col-md-2 d-flex flex-column flex-wrap align-content-center mt-4">
+          <h6 class="h6">Serviços</h6>
+          <ul class="list-unstyled">
+            <li><a class="text-dark text-decoration-none" href="cad.html">Cadastrar</a></li>
+            <li><a class="text-dark text-decoration-none" href="login.html">Logar</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-2 d-flex flex-column flex-wrap align-content-center mt-4">
+          <h3 class="h6">Suporte</h3>
+          <ul class="list-unstyled">
+            <li><a class="text-dark text-decoration-none" href="cad.html" target="centro">Sobre Nós</a></li>
+            <li><a class="text-dark text-decoration-none" href="ajuda.html">Ajuda</a></li>
+          </ul>
+        </div>
+
+
+        <div class="col-md-4 d-flex flex-column flex-wrap align-content-center mt-4">
+          <h3 class="h6">Idioma</h3>
+          <div class="d-flex align-items-center">
+            <i class="fa-solid fa-globe m-2"></i>
+            <h2 class="h6"><a class="text-dark text-decoration-none" href="#">Brasil - Português</a></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
